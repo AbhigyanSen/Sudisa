@@ -4,14 +4,8 @@ import logging
 import numpy as np
 
 def FrameCorrupt(Frame):
-    # Calculate the average pixel value of the Frame
     AveragePixelValue = np.mean(Frame)
-
-    # Define a threshold below which the Frame is considered corrupt
-    # Adjust this threshold as needed for your specific use case
     CorruptThreshold = 10
-
-    # Check if the average pixel value is below the threshold
     return AveragePixelValue < CorruptThreshold
 
 # Establish Connection
