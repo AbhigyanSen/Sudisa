@@ -1,3 +1,5 @@
+# Handling the RTSP feed with Exception Handling
+
 import cv2
 import time
 import logging
